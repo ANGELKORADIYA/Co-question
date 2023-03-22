@@ -1,0 +1,30 @@
+#loadquestion{
+    margin:12px;
+    padding: 12px;
+}
+#question{
+    margin: 40px;
+    padding: 30px;
+}
+.loadquestion{
+    margin: 20px;
+}
+.COindicator{
+    
+    margin: 20px;
+    font-size: 30px;
+}
+textarea{
+    margin: 50px;
+    width: 90%;
+    height: 50px;
+}
+#confirmation2{
+    display: none;
+}
+hr{
+    /* size:12px; */
+    height: 3px ;    
+    background-color: black;
+    /* size: 122px; */
+}

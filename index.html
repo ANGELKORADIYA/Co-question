@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOST/FACULTY UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div id="nav">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/question.html">Question</a></li>
+                <li><a href="/about_me.html">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!--  -->
+    <div>
+    <main>
+        <!-- input of how many CO requriment -->
+        <div id="divof_CO">
+        How many CO you want ? : - 
+        <input type="CO" name="CO" id="CO">
+        
+        <!--  -->
+        <input type="submit" value="Submit" id="count"> 
+    </div>  
+    
+    <!-- display requried CO count -->
+    <div id="afterCO">
+    </div>
+    
+    
+    
+    <div id="divof_question">
+            How many question you want <span id="print_current_co"></span> ? : - 
+            <input type="number" name="question_count" id="question_count">
+            <input type="submit" value="Submit" id="count2"> 
+        </div>  
+        </div>
+        <div id="afterquestion">
+        </div>
+
+
+
+    <!-- Confirmation -->
+    <div id="confirmation">
+        <hr>
+        Please ! Confirm the total CO and each COs total Question : - 
+        <button type="reset" value="reset" id="reset">Reset</button>
+        <button type="submit" value="submit" id="final_submit">Submit</button>
+        <!-- DATA GOING TO BACKEND -->
+    </div>
+
+    </main>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
