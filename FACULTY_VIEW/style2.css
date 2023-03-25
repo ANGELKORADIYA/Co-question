@@ -28,3 +28,16 @@ hr{
     background-color: black;
     /* size: 122px; */
 }
+
+.COindicator{
+    margin:20px;
+    font-size: 30px;
+    background-color:blue;
+    color: white;
+    padding: 12px;
+}
+.loadquestion{
+    margin:30px;
+    background-color: orange;
+    padding: 10px;
+}
