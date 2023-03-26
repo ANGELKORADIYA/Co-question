@@ -2,11 +2,12 @@
 
 //input
 // let arr = JSON.parse('[[["dasd","adadas"],["dada","dasdasd"]],[["dad"],["dasd"]],[["addad","adadasd"],["dad"]]]')
-let arr = JSON.parse('[[["how many","10","40","50","60"],["when","a","b","c","d"]],[["helo","helloo"],["why","bcz"]],[["name","a","k"],["address","mvr","jnd","ahmdabad"],["whya","a"],["3","1","2","3"]],[["4","1","2","3","4"],["5","5","4","3","2","1"],[""],[""],[""]],[[""],[""],[""],[""],[""],[""]]]')
+let arr = JSON.parse('[[["how many","10","40","50","60"],["when","a","b","c","d"]],[["helo","helloo"],["why","bcz"]],[["name","a","k"],["address","mvr","jnd","ahmdabad"],["whya","a"],["3","1","2","3"]],[["4","1","2","3","4"],["5","5","4","3","2","1"],["lorme","a","1","2"]],[["hwo"],["11","a","1","2"],["12","a","1","2"],["13","a","1","2"],["2","a","1","2"],["3","a","1","2"]]]')
 let final_submit = document.getElementById("final_submit")
 let reset = document.getElementById("reset")
 let root = document.getElementById("root")
-console.log(root)
+// console.log(root)
+
 // console.log(arr .length)
 for (let j = 0; j < arr.length; j++) {
     root.innerHTML += `<div class="COindicator">for CO-${j + 1}</div>`

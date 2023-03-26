@@ -19,8 +19,6 @@ let current_co = 0;
 count.addEventListener("click", (e) => {
     e.preventDefault();
     num = CO.value;
-    // arr[num + 1] = 1;
-    console.log(arr)
     divof_CO.style.display = "none";
     afterCO.innerHTML = `Your total CO s are ${num}<hr>`;
     afterCO.style.display = "block";
@@ -53,5 +51,9 @@ reset.addEventListener("click",(e)=>{
 let final_submit = document.getElementById("final_submit");
 final_submit.addEventListener("click",(e)=>{
     // DATA GOING TO BACKEND
-    window.location = "/question.html";
+    
+    window.location = "question.html";
+
+
 })
+
